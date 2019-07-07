@@ -1,21 +1,24 @@
-import React from "react";
-import { Jumbotron } from "reactstrap";
+import React from "react"
+import { Jumbotron } from "reactstrap"
 
 const Description = () => {
   return (
     <div>
       <Jumbotron style={{ backgroundColor: "#fbf6ec" }}>
         <h1 className="display-3">Witaj!</h1>
-        <p className="lead">Jestem pocztkującym Web Developerem. </p>
+        <p className="lead">
+          Jestem JavaScript developerem. Na co dzień zawodowo zajmuję się tworzeniem aplikacji Front Endowych z
+          wykorzystaniem React.js{" "}
+        </p>
         <hr className="my-2" />
         <p>
           {" "}
-          Znajdzesz tutaj moje reazlizacje oraz informacje nad czym obecnie pracuję oraz czego
-          chciałbym się nauczyć.
+          Znajdziesz tutaj moje realizacje oraz linki go Github / LinkedIn. Obecnie zajmuję się tworzeniem swojego
+          starter kit-a do aplikacji React.{" "}
         </p>
       </Jumbotron>
     </div>
-  );
-};
+  )
+}
 
-export default Description;
+export default Description
